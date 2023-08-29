@@ -5,12 +5,13 @@ body {
 .navbar {
   background-color: #c5492a;
 }
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
   background-color: white;
   color: #c5492a;
 }
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
+.nav-cardapio .nav-link.active:hover,
 .navbar-brand:hover {
   color: white;
 }
@@ -22,9 +23,17 @@ body {
   font-family: Pacifico, cursive;
 }
 
-#sobre-restaurante {
-  background-color: #a3a09f;
+#sobre-restaurante,
+#cardapio {
+  background-color: #f1d1c7;
 }
 .text-colored {
+  color: #c5492a;
+}
+.nav-cardapio .nav-link.active {
+  background-color: #c5492a;
+  color: white;
+}
+.nav-cardapio .nav-link:hover {
   color: #c5492a;
 }
