@@ -302,17 +302,19 @@
                         <form action="">
                             <div class="mb-3">
                                 <label class="form-label fw-bold text-colored" for="nome">Seu nome</label>
-                                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome"
-                                    required>
+                                <input name="nome" type="text" class="form-control" id="nome"
+                                    placeholder="Digite seu nome" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label fw-bold text-colored" for="email">Seu email</label>
-                                <input type="email" class="form-control" id="email" placeholder="Digite email" required>
+                                <input name="email" type="email" class="form-control" id="email"
+                                    placeholder="Digite email" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone</label>
-                                <input type="tel" class="form-control" id="telefone" placeholder="Digite telefone"
-                                    required>
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone
+                                    (opcional)</label>
+                                <input name="telefone" type="tel" class="form-control" id="telefone"
+                                    placeholder="Digite telefone" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem</label>
@@ -353,7 +355,13 @@
         </section>
 
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./script.js"></script>
+
 </body>
 
 </html>
